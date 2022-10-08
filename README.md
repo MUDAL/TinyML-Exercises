@@ -1,5 +1,11 @@
 # TinyML-Exercises  
 
+## How to use  
+- Connect your ESP32 board to your PC.    
+- Run the ``NAND_TinyML`` code.  
+- Open your ``Serial monitor`` and ensure the baud rate is set to ``115200``.  
+- You should observe the output shown in the ``Serial monitor's output`` section of this README.  
+
 ## Description  
 TinyML projects. Project 1 is a trivial example of training a model to predict the outputs of a NAND gate.  
 The model is trained using ``tensorflow`` in ``Google Colab`` and converted to a C code. The C code is executed on an  
