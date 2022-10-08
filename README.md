@@ -28,6 +28,20 @@ The function ``RunModel(float* input,char* title)`` makes the inference and disp
 ``RunModel()`` makes inferences by calling ``ml.predict()``. More information on the EloquentTinyML library functions can be in the repo  
 linked in the ``Credits`` section below.  
 
+## Serial monitor's output  
+```
+ NAND Model Experiment: 
+
+0 NAND 0: 
+predicted value = 1.00
+0 NAND 1: 
+predicted value = 1.00
+1 NAND 0: 
+predicted value = 1.00
+1 NAND 1: 
+predicted value = 0.00
+```
+
 ## Credits  
 - EloquentTinyML Library: https://github.com/eloquentarduino/EloquentTinyML  
 - NAND Gate ML model training and validation: https://github.com/MikunsHub/my_Portfolio  
