@@ -28,7 +28,7 @@ The number of inputs and output required by the model as well as the ``tensor ar
 #define TENSOR_ARENA_SIZE   3*1024
 ```
 
-NB: Tensor arena size is the amount of space reserved for the neural networks operations (e.g. storage of tensors). An object (``ml``) of the class ``TFLite`` is instantiated and initialized with the number of inputs,outputs and tensor arena size. 
+NB: Tensor arena size is the amount of space reserved for the neural networks operations (e.g. storage of tensors). An object (``ml``) of the class ``TFLite`` is instantiated and initialized with the number of inputs,outputs and tensor arena size.   
 The function ``RunModel(float* input,char* title)`` makes the inference and displays the result on the ``Serial monitor``. ``RunModel()`` makes inferences by calling ``ml.predict()``. More information on the EloquentTinyML library functions can be in the repo linked in the ``Credits`` section below.  
 
 ## Serial monitor's output  
